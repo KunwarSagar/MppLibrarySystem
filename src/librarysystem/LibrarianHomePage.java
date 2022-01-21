@@ -131,12 +131,12 @@ public class LibrarianHomePage extends JFrame implements LibrarySystemWindow {
 
         cards = new JPanel(new CardLayout());
         cards.add(librarianHomePagePanel, itemList.get(0).getItemName());
-        cards.add(searchMemberPanel, itemList.get(1).getItemName());
-        cards.add(searchBookPanel, itemList.get(2).getItemName());
-        cards.add(checkOutBookPanel, itemList.get(3).getItemName());
-        cards.add(checkOutStatusPanel, itemList.get(4).getItemName());
-        cards.add(searchMemberCheckOutPanel, itemList.get(5).getItemName());
-        cards.add(logoutPanel, itemList.get(6).getItemName());
+        //cards.add(searchMemberPanel, itemList.get(1).getItemName());
+        //cards.add(searchBookPanel, itemList.get(2).getItemName());
+        cards.add(checkOutBookPanel, itemList.get(1).getItemName());
+        //cards.add(checkOutStatusPanel, itemList.get(4).getItemName());
+        cards.add(searchMemberCheckOutPanel, itemList.get(2).getItemName());
+        cards.add(logoutPanel, itemList.get(3).getItemName());
 
     }
 

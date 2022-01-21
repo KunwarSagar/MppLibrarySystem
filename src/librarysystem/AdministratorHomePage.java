@@ -130,10 +130,10 @@ public class AdministratorHomePage extends JFrame implements LibrarySystemWindow
         cards.add(addMemberPanel, itemList.get(1).getItemName());
         cards.add(addBookPanel, itemList.get(2).getItemName());
         cards.add(addBookCopyPanel, itemList.get(3).getItemName());
-        cards.add(searchMemberPanel, itemList.get(4).getItemName());
-        cards.add(searchBookPanel, itemList.get(5).getItemName());
-        cards.add(editOrDeletePanel, itemList.get(6).getItemName());
-        cards.add(logoutPanel, itemList.get(7).getItemName());
+        //cards.add(searchMemberPanel, itemList.get(4).getItemName());
+        //cards.add(searchBookPanel, itemList.get(5).getItemName());
+        //cards.add(editOrDeletePanel, itemList.get(4).getItemName());
+        cards.add(logoutPanel, itemList.get(4).getItemName());
 
     }
 

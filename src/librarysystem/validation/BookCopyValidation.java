@@ -17,7 +17,6 @@ public class BookCopyValidation implements Validation {
 
         bookCopyPanel = (AddBookCopyPanel) ob;
         checkEmptyFIeld();
-        //maxDays();
     }
 
     private void checkEmptyFIeld() throws ValidationException {
@@ -27,11 +26,4 @@ public class BookCopyValidation implements Validation {
         }
     }
 
-//    private void maxDays() throws RuleException{
-//
-//        int maxBorrowDays = Integer.parseInt(bookCopyPanel.getBookFields()[1].getText());
-//        if(maxBorrowDays <= 0)
-//            throw new RuleException("Number of copies should be greater than one");
-//
-//    }
 }

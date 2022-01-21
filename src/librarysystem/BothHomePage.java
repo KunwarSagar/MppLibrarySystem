@@ -142,12 +142,12 @@ public class BothHomePage extends JFrame implements LibrarySystemWindow {
         cards.add(addBookPanel, itemList.get(2).getItemName());
         cards.add(addBookCopyPanel, itemList.get(3).getItemName());
         cards.add(checkOutBookPanel, itemList.get(4).getItemName());
-        cards.add(checkOutStatusPanel, itemList.get(5).getItemName());
-        cards.add(searchBookPanel, itemList.get(6).getItemName());
-        cards.add(searchMemberPanel, itemList.get(7).getItemName());
-        cards.add(searchMemberCheckOutPanel, itemList.get(8).getItemName());
-        cards.add(editOrDeletePanel, itemList.get(9).getItemName());
-        cards.add(logoutPanel, itemList.get(10).getItemName());
+        //cards.add(checkOutStatusPanel, itemList.get(5).getItemName());
+        //cards.add(searchBookPanel, itemList.get(6).getItemName());
+        //cards.add(searchMemberPanel, itemList.get(7).getItemName());
+        cards.add(searchMemberCheckOutPanel, itemList.get(5).getItemName());
+        //cards.add(editOrDeletePanel, itemList.get(6).getItemName());
+        cards.add(logoutPanel, itemList.get(6).getItemName());
 
     }
 
