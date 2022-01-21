@@ -33,7 +33,15 @@ public class MemberValidation implements Validation {
     private void checkIdNumeric() throws ValidationException {
         String val = memberGui.getMemberFields()[3].getText();
         try {
-            Integer.parseInt(val);
+        	String pattern = "\\d{10}|(?:\\d{3}-){2}\\d{4}|\\(\\d{3}\\)\\d{3}-?\\d{4}";
+        	
+        	if (val.matches(pattern)) {     
+                // correct
+            } else {     
+            	throw new ValidationException("Please add correct phone number.");
+            }
+        	
+        	//Integer.parseInt(val);
             //val is numeric
         } catch(NumberFormatException e) {
             throw new ValidationException("Phone Number should be numeric");
